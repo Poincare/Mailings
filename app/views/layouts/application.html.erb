@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mailings</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag "font" %>
+  <%= stylesheet_link_tag params[:controller] %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <div id="logo">
+        Mailings
+      </div>
+
+      <div id="nav">
+        <div id="mailit_wrapper">
+          <% if user_signed_in? %>
+            <%= link_to "Log out", destroy_user_session_path, :method => :delete, :class => "nav_link" %>
+          <% else %>
+            <%= link_to "Log in", new_user_session_path, :class => "nav_link" %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% if flash[:notice] %>
+    <p class="notice"><%= notice %></p>
+  <% end %>
+
+  <% if flash[:alert] %>
+    <p class="alert"><%= alert %></p>
+  <% end %>
+
+<%= yield %>
+
+  <script type="text/javascript" src="//api.filepicker.io/v1/filepicker.js"></script>
+</body>
+</html>

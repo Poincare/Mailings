@@ -1,0 +1,47 @@
+<div id="final_form">
+  <div id="upper_header">
+    Send
+  </div>
+  
+  <div id="form_body">
+    <%= form_tag("/thanks") do %>
+      <div id="address">
+        <%= text_area_tag(:recipient_address, "Address of recipient", :size => "24x6") %>  
+        <% if user_signed_in? %>
+          <%= text_area_tag(:sender_address, current_user.address, :size => "24x6") %>
+        <% else %>
+          <%= text_area_tag(:sender_address, "Your address", :size => "24x6") %>
+        <% end %>
+
+      </div>
+
+      <div id="email">
+        <% if user_signed_in? %>
+          <%= text_field_tag(:email, current_user.email) %>
+        <% else %>
+          <%= text_field_tag(:email, "Your email (in case something's wrong)") %>
+        <% end %>
+      </div>
+
+      <div id="safe_hands" class="gray">
+        Your info is in safe hands, we hate spam too!
+      </div>
+
+      <div id="price">
+        Total: $<%= "%0.2f" % (@price/100.0) %>
+      </div>
+
+
+      <div id="sent_out">
+        Your mail will be delivered to the post office within 24 hours.
+      </div>
+
+      <div id="payment">
+        <div id="stripe_button">
+            <script src="https://button.stripe.com/v1/button.js" class="stripe-button" data-key="pk_J8SSL4ez2J4j6OkjmIcZgp1N9VG2Q" data-amount="<%= @price %>"></script> 
+        </div>
+      </div>
+
+    <% end %>
+  </div>
+  

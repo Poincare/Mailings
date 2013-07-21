@@ -1,0 +1,75 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ */
+
+.entypo {
+  font-family: "EntypoRegular";
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: #eee;
+}
+
+.container {
+  width: 960px;
+  position: relative;
+  margin: auto;
+}
+
+#header {
+  position: relative;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #313131;
+  height: 3em;
+}
+
+#logo {
+  position: absolute;
+  left: 0px;
+  top: 1em;
+  font-weight: bold;
+}
+
+#nav {
+  position: absolute;
+  right: 0px;
+  top: 1em;
+}
+
+.nav_link {
+  font-family: sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #eee;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.clear {
+  clear: both;
+}
+
+.notice, .alert {
+  background-color: #666;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12pt;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1em;
+}
+

@@ -1,0 +1,1174 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.9ms)[0m  DELETE FROM "mails"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 16:53:45', '2013-07-10 16:53:45', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 16:53:45', '2013-07-10 16:53:45', 298486374)
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.8ms)[0m  DELETE FROM "mails"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 16:55:40', '2013-07-10 16:55:40', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 16:55:40', '2013-07-10 16:55:40', 298486374)
+  [1m[36m (3.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.8ms)[0m  DELETE FROM "mails"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 17:05:27', '2013-07-10 17:05:27', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 17:05:27', '2013-07-10 17:05:27', 298486374)
+  [1m[36m (3.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "mails"
+  [1m[36mFixture Insert (34.8ms)[0m  [1mINSERT INTO "mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 17:08:53', '2013-07-10 17:08:53', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 17:08:53', '2013-07-10 17:08:53', 298486374)
+  [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (4.7ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.8ms)[0m  DELETE FROM "mails"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "mails" ("page_count", "file_url", "sender_address", "recipient_addres", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 18:41:05', '2013-07-10 18:41:05', 980190962)[0m
+SQLite3::SQLException: table mails has no column named recipient_addres: INSERT INTO "mails" ("page_count", "file_url", "sender_address", "recipient_addres", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 18:41:05', '2013-07-10 18:41:05', 980190962)
+  [1m[35m (1.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "mails"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "mails" ("page_count", "file_url", "sender_address", "recipient_addres", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 18:41:05', '2013-07-10 18:41:05', 980190962)[0m
+SQLite3::SQLException: table mails has no column named recipient_addres: INSERT INTO "mails" ("page_count", "file_url", "sender_address", "recipient_addres", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 18:41:05', '2013-07-10 18:41:05', 980190962)
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "mails"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "mails" ("page_count", "file_url", "sender_address", "recipient_addres", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 18:41:05', '2013-07-10 18:41:05', 980190962)[0m
+SQLite3::SQLException: table mails has no column named recipient_addres: INSERT INTO "mails" ("page_count", "file_url", "sender_address", "recipient_addres", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 18:41:05', '2013-07-10 18:41:05', 980190962)
+  [1m[35m (1.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "mails"
+  [1m[36mFixture Insert (16.0ms)[0m  [1mINSERT INTO "mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 18:43:21', '2013-07-10 18:43:21', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 18:43:21', '2013-07-10 18:43:21', 298486374)
+  [1m[36m (4.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mMail Load (0.7ms)[0m  [1mSELECT "mails".* FROM "mails" WHERE "mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mMail Load (0.3ms)[0m  SELECT "mails".* FROM "mails" WHERE "mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mMail Load (0.3ms)[0m  [1mSELECT "mails".* FROM "mails" WHERE "mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (6.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (12.2ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 19:26:51', '2013-07-10 19:26:51', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:26:51', '2013-07-10 19:26:51', 298486374)
+  [1m[36mFixture Delete (0.8ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:26:51', '2013-07-10 19:26:51', 980190962)
+  [1m[36mFixture Insert (0.7ms)[0m  [1mINSERT INTO "users" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:26:51', '2013-07-10 19:26:51', 298486374)[0m
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:26:51', '2013-07-10 19:26:51', 298486374)
+  [1m[35m (1.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 19:26:52', '2013-07-10 19:26:52', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:26:52', '2013-07-10 19:26:52', 298486374)
+  [1m[36mFixture Delete (1.8ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "users" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:26:52', '2013-07-10 19:26:52', 980190962)
+  [1m[36mFixture Insert (0.7ms)[0m  [1mINSERT INTO "users" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:26:52', '2013-07-10 19:26:52', 298486374)[0m
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:26:52', '2013-07-10 19:26:52', 298486374)
+  [1m[35m (1.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 19:26:52', '2013-07-10 19:26:52', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:26:52', '2013-07-10 19:26:52', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:26:52', '2013-07-10 19:26:52', 980190962)
+  [1m[36mFixture Insert (0.8ms)[0m  [1mINSERT INTO "users" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:26:52', '2013-07-10 19:26:52', 298486374)[0m
+SQLite3::ConstraintException: column email is not unique: INSERT INTO "users" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:26:52', '2013-07-10 19:26:52', 298486374)
+  [1m[35m (1.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.9ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (18.1ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 19:28:40', '2013-07-10 19:28:40', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:28:40', '2013-07-10 19:28:40', 298486374)
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (5.8ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.3ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (13.9ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (3.6ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 19:50:47', '2013-07-10 19:50:47', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:50:47', '2013-07-10 19:50:47', 298486374)
+  [1m[36mFixture Delete (0.8ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO "users" ("email", "password", "confirm_password", "created_at", "updated_at", "id") VALUES ('user@example.com', 'nothing', 'nothing at all', '2013-07-10 19:50:47', '2013-07-10 19:50:47', 980190962)
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("email", "password", "confirm_password", "created_at", "updated_at", "id") VALUES ('user@example.com', 'nothing', 'nothing at all', '2013-07-10 19:50:47', '2013-07-10 19:50:47', 980190962)
+  [1m[36m (1.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.6ms)[0m  [1mDELETE FROM "snail_mails"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 19:50:47', '2013-07-10 19:50:47', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:50:47', '2013-07-10 19:50:47', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "users" ("email", "password", "confirm_password", "created_at", "updated_at", "id") VALUES ('user@example.com', 'nothing', 'nothing at all', '2013-07-10 19:50:47', '2013-07-10 19:50:47', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("email", "password", "confirm_password", "created_at", "updated_at", "id") VALUES ('user@example.com', 'nothing', 'nothing at all', '2013-07-10 19:50:47', '2013-07-10 19:50:47', 980190962)
+  [1m[35m (4.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 19:50:47', '2013-07-10 19:50:47', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:50:47', '2013-07-10 19:50:47', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "users" ("email", "password", "confirm_password", "created_at", "updated_at", "id") VALUES ('user@example.com', 'nothing', 'nothing at all', '2013-07-10 19:50:47', '2013-07-10 19:50:47', 980190962)
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("email", "password", "confirm_password", "created_at", "updated_at", "id") VALUES ('user@example.com', 'nothing', 'nothing at all', '2013-07-10 19:50:47', '2013-07-10 19:50:47', 980190962)
+  [1m[36m (2.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.6ms)[0m  [1mDELETE FROM "snail_mails"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 19:50:47', '2013-07-10 19:50:47', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:50:47', '2013-07-10 19:50:47', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "users" ("email", "password", "confirm_password", "created_at", "updated_at", "id") VALUES ('user@example.com', 'nothing', 'nothing at all', '2013-07-10 19:50:47', '2013-07-10 19:50:47', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("email", "password", "confirm_password", "created_at", "updated_at", "id") VALUES ('user@example.com', 'nothing', 'nothing at all', '2013-07-10 19:50:47', '2013-07-10 19:50:47', 980190962)
+  [1m[35m (1.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.8ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (29.1ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 19:52:23', '2013-07-10 19:52:23', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:52:23', '2013-07-10 19:52:23', 298486374)
+  [1m[36mFixture Delete (1.0ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', 'nothing', '2013-07-10 19:52:24', '2013-07-10 19:52:24', 980190962)
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.8ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 19:53:33', '2013-07-10 19:53:33', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:53:33', '2013-07-10 19:53:33', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$FFBqTymiSvyzOHamIVZx1OMPvHVV51MYHW/LPma6tlTCF3Spput9u', '2013-07-10 19:53:34', '2013-07-10 19:53:34', 980190962)
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 19:56:00', '2013-07-10 19:56:00', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:56:00', '2013-07-10 19:56:00', 298486374)
+  [1m[36mFixture Delete (3.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$X8nKtJNQafZ6bpuAcJbGV.QwlhSjKWHHRmzD/Veo/iFDiD8Cc06ay', '2013-07-10 19:56:00', '2013-07-10 19:56:00', 980190962)
+  [1m[36m (6.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (15.0ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 19:57:13', '2013-07-10 19:57:13', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:57:13', '2013-07-10 19:57:13', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$dsdX.eEMP2v1J2nYMtv0jeOQc54Nq9s3AcyQ8KOISZ.wPuO68pabG', '2013-07-10 19:57:13', '2013-07-10 19:57:13', 980190962)
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 19:59:06', '2013-07-10 19:59:06', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 19:59:06', '2013-07-10 19:59:06', 298486374)
+  [1m[36m (8.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:01:06', '2013-07-10 20:01:06', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:01:06', '2013-07-10 20:01:06', 298486374)
+  [1m[36m (11.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.8ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.4ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.8ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (24.1ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:01:54', '2013-07-10 20:01:54', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:01:54', '2013-07-10 20:01:54', 298486374)
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.7ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.3ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (6.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (122.8ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (26.1ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:03:26', '2013-07-10 20:03:26', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:03:26', '2013-07-10 20:03:26', 298486374)
+  [1m[36m (62.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (4.5ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.4ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.3ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:07:41', '2013-07-10 20:07:41', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:07:41', '2013-07-10 20:07:41', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$jOpMepswLZTP4p2BM1l//.mzx8WRONnuZvnWvoRxltS/lHiRQWPEy', '2013-07-10 20:07:41', '2013-07-10 20:07:41', 980190962)
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (1.9ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.3ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (176.6ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (205.9ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:08:49', '2013-07-10 20:08:49', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:08:49', '2013-07-10 20:08:49', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$8gznXsdgVmhX66UasOM5rOK6KOw2uyKH1F3oWn.S2YyjGV8ML3R7y', '2013-07-10 20:08:50', '2013-07-10 20:08:50', 980190962)
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (1.1ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (1.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.3ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:09:58', '2013-07-10 20:09:58', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:09:58', '2013-07-10 20:09:58', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$DY5EUO/doAbVCBvUDGWcXetg9pofqmaZFVWc7h5BOFoxDio7t/mTC', '2013-07-10 20:09:58', '2013-07-10 20:09:58', 980190962)
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.8ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.3ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.8ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:13:49', '2013-07-10 20:13:49', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:13:49', '2013-07-10 20:13:49', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$f96dp4kCSJoTxPkDZ6O3tu0WsrgCX.EY3jcIXZ0UkgbpNCQC6jE2W', '2013-07-10 20:13:49', '2013-07-10 20:13:49', 980190962)
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.8ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.3ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (53.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:13:54 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:13:54 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.8ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:14:34', '2013-07-10 20:14:34', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:14:34', '2013-07-10 20:14:34', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$3kjiOfTbjC7xvDTit4/z/eosxH2b/Tnn31wpcIVLTdaJhy4xCM9ie', '2013-07-10 20:14:34', '2013-07-10 20:14:34', 980190962)
+  [1m[36m (4.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.7ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.3ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (5.1ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:14:39 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:14:39 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (2.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:15:26', '2013-07-10 20:15:26', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:15:26', '2013-07-10 20:15:26', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$abgs00x/sR6Kg4irta/AI.d21xJGN.l6VkC3dy6gaPy6P32fw9ctq', '2013-07-10 20:15:26', '2013-07-10 20:15:26', 980190962)
+  [1m[36m (3.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.7ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.4ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (7.9ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:15:28 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:15:28 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:17:41', '2013-07-10 20:17:41', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:17:41', '2013-07-10 20:17:41', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$CFY2EM.zao22ipW/4PSyROKGW7Pz5OxbRaoc77OMIKFZitBjgTejW', '2013-07-10 20:17:41', '2013-07-10 20:17:41', 980190962)
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (2.9ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.3ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (5.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.4ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (1.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:17:44 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:19:42', '2013-07-10 20:19:42', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:19:42', '2013-07-10 20:19:42', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$zb/yLFZms5peJlxgEEuUbeCUNeYAYv8.ABTM55Bdz67wX984wgQCC', '2013-07-10 20:19:42', '2013-07-10 20:19:42', 980190962)
+  [1m[36m (3.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.7ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.3ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.9ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (8.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:19:46 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "snail_mails" WHERE "snail_mails"."user_id" = 980190962[0m
+  [1m[35m (1.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:25:05', '2013-07-10 20:25:05', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:25:05', '2013-07-10 20:25:05', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$BCnDgE0EFRHIin0n61AjtuAt7ptc1sP67.qXXX10qR8n3gopVcp7K', '2013-07-10 20:25:05', '2013-07-10 20:25:05', 980190962)
+  [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.8ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.3ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (1.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (41.5ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:25:11 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:11 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:25:11 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:11 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "snail_mails" WHERE "snail_mails"."user_id" = 980190962[0m
+  [1m[35m (1.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:25:12 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:26:42', '2013-07-10 20:26:42', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:26:42', '2013-07-10 20:26:42', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$ftDEzJgeT8.TrVnVUSMRW.hKP6Cu9TrgCit1QaVRzhSUfc0iFr80K', '2013-07-10 20:26:42', '2013-07-10 20:26:42', 980190962)
+  [1m[36m (3.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.8ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.3ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (41.4ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (1.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "snail_mails" WHERE "snail_mails"."user_id" = 980190962[0m
+  [1m[35m (1.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.9ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (7.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:26:49 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSnailMail Load (0.5ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."user_id" = 980190962[0m
+  [1m[35m (2.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (2.0ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:28:04', '2013-07-10 20:28:04', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:28:04', '2013-07-10 20:28:04', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$kJcGA5Otn04PP1UfRtDyze.Uox/9SHTX/BgeorVcnRSrQVgIcUp7K', '2013-07-10 20:28:04', '2013-07-10 20:28:04', 980190962)
+  [1m[36m (3.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.8ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.4ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.8ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (3.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (6.0ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.9ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.4ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "snail_mails" WHERE "snail_mails"."user_id" = 980190962[0m
+  [1m[35m (1.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (11.1ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.6ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.4ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (7.6ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (27.1ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:08 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:28:09 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:09 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:28:09 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:09 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:28:09 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:09 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:28:09 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:09 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:28:09 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:09 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:28:09 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:28:09 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSnailMail Load (0.5ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."user_id" = 980190962[0m
+  [1m[35m (1.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (17.3ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:32:10', '2013-07-10 20:32:10', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:32:10', '2013-07-10 20:32:10', 298486374)
+  [1m[36mFixture Delete (11.5ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$RFDIZe.KEf17KRwBMmdCb.tFkFK4Qy60Mlwd55gt6OznRtpdotUj6', '2013-07-10 20:32:10', '2013-07-10 20:32:10', 980190962)
+  [1m[36m (13.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.8ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.4ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (45.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Load (33.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (21.5ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (18.8ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.9ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "snail_mails" WHERE "snail_mails"."user_id" = 980190962
+  [1m[36m (18.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.5ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (1.6ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:32:20 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (20.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSnailMail Load (0.6ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."user_id" = 980190962
+  [1m[36m (26.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (21.7ms)[0m  DELETE FROM "snail_mails"
+  [1m[36mFixture Insert (9.4ms)[0m  [1mINSERT INTO "snail_mails" ("page_count", "file_url", "sender_address", "recipient_address", "created_at", "updated_at", "id") VALUES (8, 'https://www.filepicker.io/api/file/tAMmmWKFSMeFxMqVCESD', '123 E Null Drive
+Nowhere, California
+USA', '345 Example Ln
+Somewhere, Nevada
+USA', '2013-07-10 20:35:41', '2013-07-10 20:35:41', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "snail_mails" ("created_at", "updated_at", "id") VALUES ('2013-07-10 20:35:41', '2013-07-10 20:35:41', 298486374)
+  [1m[36mFixture Delete (0.8ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "id") VALUES ('user@example.com', '$2a$04$r3IWNQt8faXt4vo9HOLV9e00qm0.tO9fTMWlA1PmGeBkEtvu/QGba', '2013-07-10 20:35:41', '2013-07-10 20:35:41', 980190962)
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.8ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSnailMail Load (0.3ms)[0m  SELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSnailMail Load (0.3ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (172.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (18.4ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (1.3ms)[0m  UPDATE "users" SET "address" = '123 Nonexistent Drive
+Nowhere, CA
+USA', "updated_at" = '2013-07-10 20:35:51.660911' WHERE "users"."id" = 980190962
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.9ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.7ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", nil], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "snail_mails" WHERE "snail_mails"."user_id" = 980190962[0m
+  [1m[35m (4.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (2.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (3.1ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (272.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:51 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:35:52 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:52 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:35:52 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:52 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:35:52 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:52 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.4ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Jul 2013 20:35:52 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:52 UTC +00:00], ["user_id", 980190962]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "snail_mails" ("created_at", "email", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "file_url", "page_count", "recipient_address", "sender_address", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Jul 2013 20:35:52 UTC +00:00], ["email", nil], ["file_content_type", nil], ["file_file_name", nil], ["file_file_size", nil], ["file_updated_at", nil], ["file_url", nil], ["page_count", 8], ["recipient_address", nil], ["sender_address", nil], ["updated_at", Wed, 10 Jul 2013 20:35:52 UTC +00:00], ["user_id", 980190962]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSnailMail Load (0.5ms)[0m  [1mSELECT "snail_mails".* FROM "snail_mails" WHERE "snail_mails"."user_id" = 980190962[0m
+  [1m[35m (1.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m

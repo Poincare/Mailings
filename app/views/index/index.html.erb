@@ -1,0 +1,56 @@
+<div id="content">
+  <div id="banner">
+    <div id="purpose">
+      Send snail mail from your desk. 
+    </div>
+
+    <div id="subpurpose">
+      Upload a PDF, we'll do the rest.
+    </div>
+    
+    <button id="upload">Upload</button>
+  </div>
+
+  <div id="service">
+    <div id="service_header">
+      What we offer
+    </div>
+
+    <div id="offered">
+      <div id="list_wrapper">
+        <ul>
+          <li><span class="entypo">N</span>All mail sent out within 24 hours!</li>
+          <li><span class="entypo">l</span>Need other formats? Just shoot us an email.</li>
+
+          <li><span class="entypo">%</span>We use ivory resume paper and confidential envelopes.</span></li>
+
+          <li><span class="entypo">U</span>Your addresses are safe and completely private</span></li>
+          <li><span class="entypo">W</span>Simple, clear pricing. <b>$1.70 + $0.30 per page</b>.</span>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="footer">
+    <div>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="">Contact us</a></li>
+        <li><a href="">FAQ</a></li>
+      </ul>
+    </div>
+    <div id="bottom_note">
+      We pride ourselves in incredible customer service.<br />
+      Any feedback you have would be very helpful to us.  
+    </div>
+  </div>
+
+  
+
+  <%= form_tag("/upload") do %>
+    <%= hidden_field_tag(:fp_url) %>
+  <% end %>
+
+
+</div>

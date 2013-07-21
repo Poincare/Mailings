@@ -1,0 +1,257 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#mailit {
+  border: none;
+  background-color: #d05614;
+  color: #fff;
+  height: 3em;
+  font-size: 12pt;
+  font-weight: 900;
+  text-transform: uppercase;
+  
+}
+
+#banner {
+  background-color: #ee8508;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  font-family: sans-serif;
+  font-weight: 900;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #D05614;
+  position: relative;
+}
+
+#purpose {
+  font-size: 24pt;
+  margin-bottom: 0.5em;
+}
+
+#upload {
+  font-weight: bold;
+  border: none;
+  background-color: #313131;
+  color: #fff;
+  font-size: 15pt;
+  margin-top: 1.5em;
+  padding: 1em; 
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: 0.4em;
+}
+
+#service_header {
+  text-align: center;
+  background-color: #f0f0f0;
+  font-family: sans-serif; 
+  padding: 1em;
+  font-size: 14pt;
+  font-weight: 900;
+  color: #313131;
+  border-bottom: 1px solid #ddd; 
+  background-image: linear-gradient(bottom, rgb(245,245,245) 20%, rgb(250,250,250) 60%);
+  background-image: -o-linear-gradient(bottom, rgb(245,245,245) 20%, rgb(250,250,250) 60%);
+  background-image: -moz-linear-gradient(bottom, rgb(245,245,245) 20%, rgb(250,250,250) 60%);
+  background-image: -webkit-linear-gradient(bottom, rgb(245,245,245) 20%, rgb(250,250,250) 60%);
+  background-image: -ms-linear-gradient(bottom, rgb(245,245,245) 20%, rgb(250,250,250) 60%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.2, rgb(245,245,245)),
+    color-stop(0.6, rgb(250,250,250))
+  );
+}
+
+#offered {
+  background-color: #f4fdff;
+  padding: 1em;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14pt;
+  color: #313131;
+  border-bottom: 1px solid #C7E9FF;
+}
+
+#offered ul {
+  list-style-type: none;
+}
+
+#offered li {
+  margin-bottom: 1em;
+}
+
+#offered .entypo {
+  color: #000;
+  font-size: 32pt;
+  margin-right: 1em;
+}
+
+#list_wrapper {
+  width: 560px;
+  margin: auto;
+  text-align:left;
+}
+
+#upload_form {
+  text-align: center;
+  margin-top: 2em;
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+#upload_form label {
+}
+
+.formset {
+  margin-top: 2em;
+}
+
+.formset input[type="submit"] {
+  background-color: #2f2f2f;
+  color: #fff;
+  border: none;
+  font-size: 12pt;
+  padding: 0.5em;
+}
+
+#final_form {
+  margin: auto;
+  width: 960px;  
+  text-align: center;
+}
+
+#form_body {
+  margin: auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: #f4fdff;
+  border: 1px solid #C7E9FF;
+  box-shadow: 0 0 4px 0px #c7E9FF;
+}
+
+#upper_header {
+  font-family: sans-serif;
+  padding: 1em;
+  background-color: #EE8508;
+  margin-top: 2em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  font-weight: 900;
+  font-size: 14pt;
+  border: 1px solid #D05614;
+  box-shadow: 0 0 6px 0px #D05614;
+  color: #fff;
+}
+
+#sent_out {
+  font-family: sans-serif;
+  margin-top: 2em;
+  color: #ccc;
+}
+
+#final_form textarea {
+  border: 1px solid #c4c4c4;
+  font-family: sans-serif;
+  font-size: 12pt;
+  padding: 1em;
+  line-height: 1.3em;
+  box-shadow: 0px 0px 2px 0px #c4c4c4 inset;
+  border-radius: 0.4em;
+}
+
+#final_form input {
+  border: 1px solid #c4c4c4;
+  font-family: sans-serif;
+  font-size: 12pt;
+  padding: 1em;
+  line-height: 1.3em;
+  box-shadow: 0 0 3px 0px #c4c4c4 inset;
+  border-radius: 0.4em;
+  min-width: 500px;
+  margin-top: 0.3em;
+}
+
+#price {
+  font-family: sans-serif;
+  font-size: 12pt;
+  color: #333;
+  margin-top: 2em;
+  font-weight: 900;
+}
+
+#payment {
+  position: relative;
+}
+
+#stripe_button {
+  margin-top: 2em;
+  position: absolute;
+  right: 43%;
+}
+
+.gray {
+  font-family: sans-serif;
+  font-size: 11pt;
+  margin-top: 0.9em;
+  color: #bbb;
+}
+
+#thanks {
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 55pt;
+  color: #2f2f2f;
+  text-align: center;
+  margin-top: 1.2em;
+}
+
+#subthanks {
+  font-family: serif;
+  text-align: center;
+  margin-top: 1em;
+  font-style: italic;
+  font-size: 14pt;  
+}
+
+#footer {
+  color: #2f2f2f;
+  padding-top: 2em;
+  text-align: center;
+  min-height: 8em;
+}
+
+#footer hr {
+  color: #2f2f2f;
+  box-shadow: 0 0 2px 0px #2f2f2f;
+  width: 960px;
+}
+
+#footer ul {
+  list-style-type: none; 
+  font-family: serif;
+  font-size: 11pt;
+  font-style: italic;
+}
+
+#footer li {
+  display: inline;
+  margin-right: 2em;
+}
+
+#footer li a {
+  text-decoration: underline;
+  color: #2f2f2f;
+}
+
+#bottom_note {
+  font-size: 11pt;
+  font-style: italic;
+  margin-top: 2em;  
+  line-height: 1.8em;
+}
